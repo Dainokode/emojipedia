@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgb(204, 228, 238);
+  color: rgb(68, 68, 68);
+  line-height: 1.6;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  color: #fff;
+  background-color: rgb(14, 131, 151);
+  width: 400px;
+  margin: 2rem auto;
+}
+
+.emoji-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dl-container {
+  width: 400px;
+  margin: 4rem auto;
+}
+
+.card {
+  text-align: center;
+  padding: 2rem;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  background: #fff;
+}
+
+.card dt {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: rgb(14, 131, 151);
+  font-weight: bold;
+}
+
+.card .emoji {
+  font-size: 400%;
+}
